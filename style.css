@@ -10,13 +10,15 @@ header{
   justify-content: space-between;
   background-color: black;
   color: white;
+  position: sticky;
+  top: 0;
 }
 a{
   color: white;
   text-decoration: none;
-  padding: 12px;
   display: inline-block;
-  display: inline-block;
+  border-radius: 3px;
+  padding: 8px;
 }
 a:hover{
   background-color: #0ec2be;
@@ -28,18 +30,22 @@ a:hover{
   padding: 2px;
 }
 .fa-search {
-  padding-top: 15px;
+  padding-top: 25px;
   padding-right: 10px;
+  padding-bottom: 25px;
 }
 .parent-link{
+  color: black;
   display: flex;
   flex-direction: column;
-  background-color: #7c7c7c;
   width: 120px;
   position: absolute;
-  margin-left: 390px;
+  margin-left: 240px;
+  margin-top: 0.3px;
   visibility: hidden;
-  
+  padding: 10px 0px 10px 10px;
+  border-radius: 2px;
+  background-color: #2e2e2e;
 }
 .drop:hover + .parent-link{
   visibility: visible;
@@ -59,8 +65,9 @@ a:hover{
   position: relative;
   bottom: 60px;
   left: 20px;
-  font-size: 20px;
-  
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
 }
 /* =============== 3. our team
 ================ */
